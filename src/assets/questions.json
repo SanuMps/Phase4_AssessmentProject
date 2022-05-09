@@ -1,0 +1,200 @@
+{
+    "questions": [
+        {
+            "questionText": "What is a correct syntax to output 'Hello World' in Java?",
+            "options": [
+                {
+                    "text": "System.out.println('Hello World');",
+                    "correct": true
+                },
+                {
+                    "text": "echo('Hello World');"
+                },
+                {
+                    "text": "print ('Hello World');"
+                },
+                {
+                    "text": "Console.WriteLine('Hello World');"
+                }
+            ],
+            "explanation": "System.out.println('Hello World') is used to display on the screen"
+        },
+
+
+
+        {
+            "questionText": "What is Inheritance?",
+            "options": [
+                {
+                    "text": "It is the process where one object acquires the properties of another.",
+                    "correct": true
+                },
+                {
+                    "text": "Inheritance is the ability of an object to take on many forms."
+                },
+                {
+                    "text": "Inheritance is a technique to define different methods of same type."
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "It is the process where one object acquires the properties of another. With the use of inheritance the information is made manageable in a hierarchical order."
+        },
+
+
+
+
+        {
+            "questionText": "What is the default value of String variable?",
+            "options": [
+                {
+                    "text": "''"
+                },
+                {
+                    "text": "null.",
+                    "correct": true
+                },
+                {
+                    "text": " not defined."
+                },
+                {
+                    "text": "{}"
+                }
+            ],
+            "explanation": "String variable has default value of null if defined as an instance/static variable."
+        },
+
+
+
+
+
+        {
+            "questionText": "Method Overriding is an example of",
+            "options": [
+                {
+                    "text": "Static Binding."
+                },
+                {
+                    "text": "Dynamic Binding.",
+                    "correct": true
+                },
+                {
+                    "text": "Both of the above."
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "Method Overriding is example of dynamic Binding."
+        },
+
+
+
+        {
+            "questionText": "Which of the following is a marker interface?",
+            "options": [
+                {
+                    "text": "Serializable",
+                    "correct": true
+                },
+                {
+                    "text": "Comparable"
+                },
+                {
+                    "text": "Cloneable"
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "Serializable is a marker interface."
+        },
+
+
+        {
+            "questionText": "_____ is used to find and fix bugs in the Java programs.",
+            "options": [
+                {
+                    "text": "JVM"
+                },
+                {
+                    "text": "JRE"
+                },
+                {
+                    "text": "JDK"
+                },
+                {
+                    "text": "JDB",
+                    "correct": true
+                }
+            ],
+            "explanation": "The Java Debugger (JDB or jdb) is a command-line java debugger that debugs the java class. It is a part of the Java Platform Debugger Architecture (JPDA) that helps in the inspections and debugging of a local or remote Java Virtual Machine (JVM)."
+        },
+
+
+
+
+        {
+            "questionText": "What is the return type of the hashCode() method in the Object class?",
+            "options": [
+                {
+                    "text": "Object"
+                },
+                {
+                    "text": "int",
+                    "correct": true
+                },
+                {
+                    "text": "long"
+                },
+                {
+                    "text": "void"
+                }
+            ],
+            "explanation": "In Java, the return type of hashCode() method is an integer, as it returns a hash code value for the object."
+        },
+
+
+
+        {
+            "questionText": "Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+            "options": [
+                {
+                    "text": "getName()",
+                    "correct": true
+                },
+                {
+                    "text": "intern()"
+                },
+                {
+                    "text": "getClass()"
+                },
+                {
+                    "text": "toString()"
+                }
+            ],
+            "explanation": "The getName() method of the Class class returns the name (as String) of the entity (class, interface) represented by this Class object. It is a non-static method, and available in the java.lang package."
+        },
+
+        {
+            "questionText": "Which package contains the Random class?",
+            "options": [
+                {
+                    "text": "java.awt package"
+                },
+                {
+                    "text": "java.lang package"
+                },
+                {
+                    "text": "java.util package",
+                    "correct": true
+                },
+                {
+                    "text": "java.io package"
+                }
+            ],
+            "explanation": "The Random class is available in the java.util package. An object of the Random class is used to generate a series of pseudorandom numbers. And the object of this class is a thread-safe and cryptographically insecure object. The Random class provides a variety of methods that are used to create random numbers of type integers, float, long, double, etc."
+        }
+    ]
+}
